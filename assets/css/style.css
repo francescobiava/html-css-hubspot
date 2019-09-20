@@ -108,14 +108,6 @@ a{
   float: left;
 }
 
-.navbarblu .navleft a{
-  display: inline-block;
-  font-family: 'Muli', sans-serif;
-  font-size: 12px;
-  color: #fff;
-  padding: 14px;
-}
-
 .navbargrey .navleft a{
   display: inline-block;
   font-family: 'Muli', sans-serif;

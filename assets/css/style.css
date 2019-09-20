@@ -1,3 +1,4 @@
+/* regole generali */
 *{
   margin: 0;
   padding: 0;
@@ -13,6 +14,7 @@ a{
   text-decoration: none;
 }
 
+/* navbar blu */
 .navbarblu{
   width: 100%;
   padding: 0 50px;
@@ -41,7 +43,7 @@ a{
   font-size: 20px;
 }
 
-.fa-sort-down{
+.navbarblu .fa-sort-down{
   color: #fff;
 }
 
@@ -81,4 +83,52 @@ a{
 
 .navbarblu .navright li:last-child a{
   color: #fff;
+}
+
+/* navbar grigia */
+.navbargrey{
+  width: 100%;
+  padding: 0 50px;
+  background-color: #d6d6d6;
+}
+
+.navbargrey::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbargrey li{
+  display: inline-block;
+  text-align: center;
+}
+
+.navbargrey .navleft{
+  width: 40%;
+  float: left;
+}
+
+.navbarblu .navleft a{
+  display: inline-block;
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  padding: 14px;
+}
+
+.navbargrey .navleft a{
+  display: inline-block;
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+  color: #666;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.navbargrey .fa-globe-europe, .fa-sort-down{
+  color: #666;
+}
+
+.navbargrey .navleft li:last-child a{
+  border-left: 1px solid #b0b0b0;
 }

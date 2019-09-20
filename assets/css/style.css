@@ -79,6 +79,6 @@ a{
   border-left: 1px solid #b0b0b0;
 }
 
-.navbarblu .navright a:last-child{
+.navbarblu .navright li:last-child a{
   color: #fff;
 }

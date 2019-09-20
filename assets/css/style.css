@@ -88,7 +88,7 @@ a{
 /* navbar grigia */
 .navbargrey{
   width: 100%;
-  padding: 0 50px;
+  padding: 0 150px;
   background-color: #d6d6d6;
 }
 
@@ -131,4 +131,21 @@ a{
 
 .navbargrey .navleft li:last-child a{
   border-left: 1px solid #b0b0b0;
+}
+
+.navbargrey .navright{
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+#get{
+  display: inline-block;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #fd7b5e;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  margin-top: 3px;
 }

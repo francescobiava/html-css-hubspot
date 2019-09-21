@@ -240,7 +240,7 @@ a{
 .textsection2 p{
   padding: 0 80px;
   font-size: 14px;
-  opacity: 0.5;
+  opacity: 0.6;
   margin-bottom: 75px;
 }
 
@@ -289,10 +289,51 @@ a{
 .section2 .largebox .right p{
   font-size: 16px;
   margin-bottom: 25px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .fa-check-circle{
   color: #fd7b5e;
   opacity: 1;
+}
+
+/* 3colonne */
+.containersection2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section2 .leftbox{
+  width: 30%;
+  background-color: #fff;
+  float: left;
+  text-align: center;
+  margin-right: 5%;
+  padding: 25px;
+}
+
+.containersection2 img{
+  width: 50%;
+}
+
+.containersection2{
+  font-family: 'Muli', sans-serif;
+}
+
+.containersection2 h4{
+  font-size: 16px;
+  padding: 0 0 20px;
+}
+
+.containersection2 p{
+  text-align: left;
+  font-size: 14px;
+  opacity: 0.5;
+  padding-bottom: 20px;
+}
+
+.containersection2 .separator{
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
 }

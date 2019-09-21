@@ -346,3 +346,11 @@ a{
   margin-right: 2%;
   padding: 25px;
 }
+
+.section2 .rightbox{
+  width: 32%;
+  background-color: #fff;
+  float: left;
+  text-align: center;
+  padding:25px;
+}

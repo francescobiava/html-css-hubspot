@@ -305,16 +305,16 @@ a{
 }
 
 .section2 .leftbox{
-  width: 30%;
+  width: 32%;
   background-color: #fff;
   float: left;
   text-align: center;
-  margin-right: 5%;
+  margin-right: 2%;
   padding: 25px;
 }
 
 .containersection2 img{
-  width: 50%;
+  height: 120px;
 }
 
 .containersection2{
@@ -339,10 +339,10 @@ a{
 }
 
 .section2 .centerbox{
-  width: 30%;
+  width: 32%;
   background-color: #fff;
   float: left;
   text-align: center;
-  margin-right: 5%;
+  margin-right: 2%;
   padding: 25px;
 }

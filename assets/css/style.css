@@ -418,3 +418,53 @@ a{
 .section3 .boxtable:nth-child(n+5):nth-child(-n+7){
   border-right: 1px solid #fff;
 }
+
+/* section4 */
+
+/* section5 */
+.section5{
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  padding: 60px 200px;
+}
+
+.section5::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.textsection5{
+  width: 50%;
+  float: left;
+}
+
+.textsection5 h2{
+  text-transform: capitalize;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.textsection5 p{
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 25px;
+}
+
+.textsection5 .getorange{
+  border: none;
+  padding: 20px 30px;
+}
+
+.imgsection5{
+  text-align: right;
+  width: 50%;
+  float: left;
+  padding-right: 150px;
+}
+
+.imgsection5 img{
+  height: 200px;
+  background-color: #fd7b5e;
+  border-radius: 50%;
+}

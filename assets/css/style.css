@@ -131,7 +131,7 @@ a{
   text-align: right;
 }
 
-#get{
+#getorange{
   display: inline-block;
   font-family: 'Muli', sans-serif;
   font-size: 18px;
@@ -181,4 +181,35 @@ a{
 .navbarwhite .navleft a{
   display: inline-block;
   padding-top: 8px;
+}
+
+/* section1 */
+.section1{
+  width: 100%;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+}
+
+.textsection1{
+  font-family: 'Muli', sans-serif;
+  padding: 100px 650px 200px 150px;
+}
+
+.textsection1 h2{
+  font-size: 50px;
+  color: #2e62a6;
+  margin-bottom: 40px;
+}
+
+.textsection1 p{
+  font-size: 14px;
+  color: #2e62a6;
+  margin-bottom: 50px;
+}
+
+#getwhite{
+  color: #2e62a6;
+  padding: 20px 25px;
+  background-color: #ededed;
+  border-radius: 5px;
 }

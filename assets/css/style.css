@@ -365,6 +365,7 @@ a{
   color: #fff;
 }
 
+/* testo */
 .textsection3{
   padding: 60px 300px;
 }
@@ -377,4 +378,43 @@ a{
   font-size: 16px;
   padding: 25px 0;
   opacity: 0.6;
+}
+
+/* tabella */
+.section3 .table{
+  width: 100%;
+  padding: 0 100px 50px;
+}
+
+.section3 .table::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section3 .boxtable{
+  width: 25%;
+  float: left;
+  padding: 25px 0;
+}
+
+.section3 .table h2{
+  padding: 5px 0;
+}
+
+.section3 .table p{
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.section3 .boxtable:nth-child(-n+4){
+  border-bottom: 2px solid #fff;  
+}
+
+.section3 .boxtable:nth-child(-n+3){
+  border-right: 1px solid #fff;
+}
+
+.section3 .boxtable:nth-child(n+5):nth-child(-n+7){
+  border-right: 1px solid #fff;
 }

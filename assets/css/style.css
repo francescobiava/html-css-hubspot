@@ -213,3 +213,32 @@ a{
   background-color: #ededed;
   border-radius: 5px;
 }
+
+/* section2 */
+.section2{
+  width: 100%;
+  background-color: #ededed;
+  padding: 0 150px;
+}
+
+.textsection2{
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.textsection2 img{
+  width: 280px;
+}
+
+.textsection2 h3{
+  font-size: 40px; 
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.textsection2 p{
+  padding: 0 80px;
+  font-size: 14px;
+  margin-bottom: 75px;
+}

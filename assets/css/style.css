@@ -337,3 +337,12 @@ a{
   padding-top: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.6);
 }
+
+.section2 .centerbox{
+  width: 30%;
+  background-color: #fff;
+  float: left;
+  text-align: center;
+  margin-right: 5%;
+  padding: 25px;
+}

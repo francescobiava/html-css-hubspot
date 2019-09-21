@@ -131,7 +131,7 @@ a{
   text-align: right;
 }
 
-#getorange{
+.getorange{
   display: inline-block;
   font-family: 'Muli', sans-serif;
   font-size: 18px;

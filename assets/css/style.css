@@ -240,5 +240,59 @@ a{
 .textsection2 p{
   padding: 0 80px;
   font-size: 14px;
+  opacity: 0.5;
   margin-bottom: 75px;
+}
+
+/* largebox */
+.section2 .largebox{
+  background-color: #fff;
+  font-family: 'Muli', sans-serif;
+  margin-bottom: 25px;
+}
+
+.section2 .largebox::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section2 .largebox .left{
+  text-align: center;
+  width: 40%;
+  float: left;
+  padding: 40px 120px 25px;
+}
+
+.learnmore{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #fd7b5e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.section2 .largebox .right{
+  width: 60%;
+  float: left;
+  padding: 60px 25px 25px;
+}
+
+.section2 .largebox .right h4{
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.section2 .largebox .right p{
+  font-size: 16px;
+  margin-bottom: 25px;
+  opacity: 0.5;
+}
+
+.fa-check-circle{
+  color: #fd7b5e;
+  opacity: 1;
 }

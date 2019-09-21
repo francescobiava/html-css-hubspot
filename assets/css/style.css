@@ -319,6 +319,7 @@ a{
 
 .containersection2{
   font-family: 'Muli', sans-serif;
+  padding-bottom: 50px;
 }
 
 .containersection2 h4{
@@ -353,4 +354,27 @@ a{
   float: left;
   text-align: center;
   padding:25px;
+}
+
+/* section3 */
+.section3{
+  width: 100%;
+  background-image: linear-gradient(to bottom left, #1ebca4 0%, #1aa7b7 100%);
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.textsection3{
+  padding: 60px 300px;
+}
+
+.textsection3 h3{
+  font-size: 25px;
+}
+
+.textsection3 p{
+  font-size: 16px;
+  padding: 25px 0;
+  opacity: 0.6;
 }

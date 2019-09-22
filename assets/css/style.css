@@ -520,3 +520,45 @@ a{
   background-color: #fd7b5e;
   border-radius: 50%;
 }
+
+/* footer */
+footer{
+  width: 100%;
+  background-color: #34475a;
+  font-family: 'Muli', sans-serif;
+}
+
+/* bottom */
+.bottom{
+  color: #fff;
+  padding: 25px 50px;
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottomleft{
+  width: 50%;
+  float: left;
+}
+
+.bottomleft p{
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.bottomright{
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.bottomright a{
+  color: #fff;
+  opacity: 0.6;
+  margin: 10px 25px;
+}

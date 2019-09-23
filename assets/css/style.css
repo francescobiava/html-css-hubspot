@@ -21,6 +21,14 @@ a{
   clear: both;
 }
 
+/* header */
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
 /* navbar blu */
 .navbarblu{
   padding: 0 50px;
@@ -133,6 +141,7 @@ a{
 
 /* navbarwhite */
 .navbarwhite{
+  background-color: #fff;
   padding: 0 150px;
 }
 
@@ -162,6 +171,11 @@ a{
 .navbarwhite .navleft a{
   display: inline-block;
   padding-top: 8px;
+}
+
+/* main */
+main{
+  margin-top: 147.5px;
 }
 
 /* section1 */

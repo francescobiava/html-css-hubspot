@@ -282,12 +282,11 @@ a{
 .section2 .largebox .right p{
   font-size: 16px;
   margin-bottom: 25px;
-  opacity: 0.6;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .fa-check-circle{
   color: #fd7b5e;
-  opacity: 1;
 }
 
 /* 3colonne */
@@ -322,7 +321,7 @@ a{
 .containersection2 p{
   text-align: left;
   font-size: 14px;
-  opacity: 0.5;
+  color: rgba(0, 0, 0, 0.6);
   padding-bottom: 20px;
 }
 

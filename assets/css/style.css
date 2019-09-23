@@ -15,17 +15,17 @@ a{
   text-decoration: none;
 }
 
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* navbar blu */
 .navbarblu{
   padding: 0 50px;
   background-color: #2e62a6;
   border-top: 2px solid #fc8c03;
-}
-
-.navbarblu::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .navbarblu li{
@@ -89,12 +89,6 @@ a{
   background-color: #d6d6d6;
 }
 
-.navbargrey::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .navbargrey li{
   display: inline-block;
   text-align: center;
@@ -140,12 +134,6 @@ a{
 /* navbarwhite */
 .navbarwhite{
   padding: 0 150px;
-}
-
-.navbarwhite::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .navbarwhite li{
@@ -239,12 +227,6 @@ a{
   margin-bottom: 25px;
 }
 
-.section2 .largebox::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .section2 .largebox .left{
   text-align: center;
   width: 40%;
@@ -291,12 +273,6 @@ a{
 }
 
 /* 3colonne */
-.containersection2::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .section2 .leftbox{
   width: 32%;
   background-color: #fff;
@@ -375,12 +351,6 @@ a{
   padding: 0 100px 50px;
 }
 
-.section3 .table::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .section3 .boxtable{
   width: 25%;
   float: left;
@@ -414,12 +384,6 @@ a{
   margin-bottom: 120px;
 }
 
-.section5::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .textsection4{
   width: 35%;
   float: left;
@@ -442,12 +406,6 @@ a{
   float: left;
 }
 
-.imgsection4::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .imgsection4 .allign{
   width: 23%;
   margin-left: 2%;
@@ -463,12 +421,6 @@ a{
 /* section5 */
 .section5{
   padding: 60px 200px;
-}
-
-.section5::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .textsection5{
@@ -515,12 +467,6 @@ footer{
 .navfooter{
   margin: 0 50px;
   padding-top: 50px;
-}
-
-.navfooter::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .boxfooter{
@@ -589,12 +535,6 @@ footer{
   color: #fff;
   padding: 25px 50px;
   border-top: 2px solid rgba(255, 255, 255, 0.6);
-}
-
-.bottom::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .bottomleft{

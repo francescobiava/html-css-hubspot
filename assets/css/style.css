@@ -614,7 +614,6 @@ footer{
 }
 
 .bottomright a{
-  color: #fff;
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
   margin: 10px 25px;
 }

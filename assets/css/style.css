@@ -324,7 +324,7 @@ a{
   padding: 0 0 20px;
 }
 
-.containersection2 p, li{
+.containersection2 p, .containersection2 li{
   text-align: left;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);

@@ -119,8 +119,8 @@ header{
   color: #666;
 }
 
-.navbargrey .navleft li:last-child a{
-  border-left: 1px solid #b0b0b0;
+.dropdown1 > a{
+  border-right: 1px solid #b0b0b0;
 }
 
 .navbargrey .navright{
@@ -137,6 +137,28 @@ header{
   padding: 10px 20px;
   border: 2px solid #000;
   margin-top: 3px;
+}
+
+/* dropdown languages */
+.dropdown1-content{
+  display: none;
+  position: absolute;
+  background-color: #d6d6d6;
+  padding: 10px;
+  box-shadow: 1px 5px 5px rgba(0,0,0,0.2);
+  z-index: 5;
+}
+
+.dropdown1-content li{
+  display: block;
+}
+
+.dropdown1-content li:nth-child(-n+3){
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dropdown1:hover .dropdown1-content{
+  display: block;
 }
 
 /* navbarwhite */

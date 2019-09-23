@@ -447,11 +447,11 @@ main{
   margin-left: 2%;
   padding: 10px;
   float: left;
-  line-height: 40px;
 }
 
 .imgsection4 img{
   width: 100%;
+  vertical-align: middle;
 }
 
 /* section5 */

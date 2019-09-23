@@ -285,6 +285,12 @@ a{
   color: rgba(0, 0, 0, 0.6);
 }
 
+.section2 .largebox .right li{
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.6);
+  padding-right: 10px;
+}
+
 .fa-check-circle{
   color: #fd7b5e;
 }
@@ -318,7 +324,7 @@ a{
   padding: 0 0 20px;
 }
 
-.containersection2 p{
+.containersection2 p, li{
   text-align: left;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
